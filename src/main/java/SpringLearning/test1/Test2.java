@@ -1,12 +1,12 @@
-package test1;
+package SpringLearning.test1;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class Test3 {
+public class Test2 {
     public static void main(String[] args){
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        Person person = new Person(context.getBean("myPet", Pet.class));
-        person.callYourPet();
+        Pet pet = context.getBean("myPet", Pet.class);
+        pet.say();
         context.close();
     }
 }

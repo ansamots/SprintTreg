@@ -1,4 +1,4 @@
-package test1;
+package SpringLearning.test1;
 
 public class Cat implements Pet{
 

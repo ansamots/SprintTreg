@@ -1,8 +1,8 @@
-package test1;
+package SpringLearning.test1;
 
-public class Person {
+public class Person2 {
 
-    public Person(Pet pet){
+    public void setPet(Pet pet){
         this.pet = pet;
     }
 
